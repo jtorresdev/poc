@@ -26,10 +26,10 @@ const LoginProvider = ({ children, tokenStorage }) => {
   }, [])
 
   const authenticate = () => {
-    setIsAuth(true);
+    setIsAuth(true)
   };
 
-  console.log(isAuth);
+
 
   return (
     <LoginContext.Provider
